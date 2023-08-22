@@ -1,0 +1,132 @@
+body{
+    width: 1440px;
+    font-family: "Manrope";
+    background-color: hsl(210, 46%, 95%);
+    margin: 0px;
+}
+#maincard{
+    display: flex;
+}
+#img1 img{
+    border-radius: 20px 0 0 20px;
+    width:400px;
+    height: 320px;
+    display:flex;
+}
+
+#card{
+    height:300px;
+    width:400px;
+    display: block;
+    background-color: white;
+    margin-left: -60px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#sharehd{
+    display: none;
+    background-color: hsl(217, 19%, 35%);
+    align-items: center;
+    border-radius: 10px;
+    width: 220px;
+    height: 50px;
+    margin-top: -100px;
+    margin-left: 220px;
+    opacity: 1;
+    position: absolute;
+}
+#sharehd p{
+    padding-left: 25px;
+}
+ul {
+    list-style: none;
+    margin-top: -35px;
+    margin-left: 60px;
+    display: flex;
+    padding: auto;
+}
+
+li {
+    padding-right: 20px;
+}
+
+
+#card h1{
+    font-size: 18px;
+    color:hsl(217, 19%, 35%);
+}
+
+#card p{
+    font-size: 15px;
+    color:hsl(212, 23%, 69%);
+}
+
+#michelle{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+
+}
+
+#michelletext{
+    margin-left: -70px;
+    margin-top: 10px;
+}
+
+#michelletext p{
+    margin-top: -10px;
+}
+
+#michelle img{
+    border-radius: 50%;
+    width: 50;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#maincard{
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+
+#share{
+    display: flex;
+    background-color: hsl(210, 46%, 95%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top:-175px;
+    margin-left: 300px;
+}
+
+#shareimg{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+#shareimg:hover{
+    cursor: pointer;   
+}
+
+#shareimg:active{
+    transform: scale(0.98);
+    filter: brightness(100);
+}
+
+#triangle{
+    margin-top: -60px;
+    margin-left: 290px;
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid hsl(217, 19%, 35%);
+    display: none;
+
+    }
